@@ -13,7 +13,7 @@ namespace BookShopLite.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-     /*       int a = 1, b = 0, c;
+       /*     int a = 1, b = 0, c;
             c = a / b;*/
             return View();
         }
