@@ -1,0 +1,60 @@
+﻿@model IEnumerable<db.Books>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("新增方式1", "insert1")
+    @Html.ActionLink("新增方式2", "insert2")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BookId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AuthorName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Price)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BookCoverUrl)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AuthorName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BookCoverUrl)
+        </td>
+        <td>
+            @Html.ActionLink("修改方式1", "update1", new { id = item.BookId }) |
+            @Html.ActionLink("修改方式2", "update2", new { id = item.BookId }) |
+            @Html.ActionLink("修改方式3", "update3", new { id = item.BookId }) |
+            @Html.ActionLink("详情", "details", new { id = item.BookId }) |
+            @Html.ActionLink("删除", "delete", new { id = item.BookId })
+        </td>
+    </tr>
+}
+
+</table>

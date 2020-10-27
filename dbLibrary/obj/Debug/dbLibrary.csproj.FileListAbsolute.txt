@@ -1,0 +1,11 @@
+F:\C#Project\MVC\0926\BookShopLite\dbLibrary\bin\Debug\dbLibrary.dll.config
+F:\C#Project\MVC\0926\BookShopLite\dbLibrary\bin\Debug\dbLibrary.dll
+F:\C#Project\MVC\0926\BookShopLite\dbLibrary\bin\Debug\dbLibrary.pdb
+F:\C#Project\MVC\0926\BookShopLite\dbLibrary\bin\Debug\EntityFramework.dll
+F:\C#Project\MVC\0926\BookShopLite\dbLibrary\bin\Debug\EntityFramework.xml
+F:\C#Project\MVC\0926\BookShopLite\dbLibrary\bin\Debug\zh-Hans\EntityFramework.resources.dll
+F:\C#Project\MVC\0926\BookShopLite\dbLibrary\obj\Debug\dbLibrary.csprojAssemblyReference.cache
+F:\C#Project\MVC\0926\BookShopLite\dbLibrary\obj\Debug\dbLibrary.csproj.CoreCompileInputs.cache
+F:\C#Project\MVC\0926\BookShopLite\dbLibrary\obj\Debug\dbLibrary.csproj.CopyComplete
+F:\C#Project\MVC\0926\BookShopLite\dbLibrary\obj\Debug\dbLibrary.dll
+F:\C#Project\MVC\0926\BookShopLite\dbLibrary\obj\Debug\dbLibrary.pdb

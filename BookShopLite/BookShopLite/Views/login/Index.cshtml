@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>登录系统</h2>
+<form method="post" action="index">
+    @Html.AntiForgeryToken();
+    <div>用户名：<input name="userName" type="text" /> </div>
+    <div>密码：<input name="password" type="password" /> </div>
+    <button type="submit">登录</button>
+    @ViewData["msg"];
+</form>
