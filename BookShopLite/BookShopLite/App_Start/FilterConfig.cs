@@ -11,7 +11,7 @@ namespace BookShopLite
             //filters.Add(new HandleErrorAttribute());
             filters.Add(new myErrorAttribute());
             filters.Add(new myAuthAttribute());
-            filters.Add(new myActionAttribute());
+            //filters.Add(new myActionAttribute());
         }
     }
 }

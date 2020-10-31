@@ -126,6 +126,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ActionResultController.cs" />
     <Compile Include="Controllers\BookController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\loginController.cs" />
@@ -187,6 +188,10 @@
     <Content Include="Views\Book\details.cshtml" />
     <Content Include="Views\login\Index.cshtml" />
     <Content Include="Views\login\error.cshtml" />
+    <Content Include="Views\ActionResult\Index2.cshtml" />
+    <Content Include="Views\ActionResult\Index.cshtml" />
+    <Content Include="Views\ActionResult\BookList1.cshtml" />
+    <Content Include="Views\ActionResult\BookList2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

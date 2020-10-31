@@ -68,5 +68,16 @@ namespace db.bll
         public static void details(int id) { 
         
         }
+        public static List<Books> getBookList1() {
+            dbEntities db = new dbEntities();
+            List<Books> list = db.Books.Where(a=>a.Price<20).ToList<Books>();
+            return list;
+        }
+        public static List<Books> getBookList2()
+        {
+            dbEntities db = new dbEntities();
+            List<Books> list = db.Books.Where(a => a.Price >= 20).ToList<Books>();
+            return list;
+        }
     }
 }
